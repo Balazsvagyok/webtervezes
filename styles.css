@@ -22,13 +22,14 @@ body {
 }
 
 .telefon {
-    background-color: lightgray;
+    background-color: darkgray;
     float: left;
     width: 30%;
-    height: 800px;
+    height: 1000px;
     margin: 15px;
     border: 2px solid black;
     text-align: center;
+    font-size: 15pt;
 }
 
 .topnav {
@@ -54,4 +55,21 @@ body {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+table,
+th,
+tr {
+    background-color: darkgray;
+    border-bottom: 2px solid black;
+    text-align: justify;
+    font-size: 15pt;
+    padding-bottom: 4px;
+    border-collapse: collapse;
+    color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }

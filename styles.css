@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.content {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.telefonok {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.telefon {
+    background-color: lightgray;
+    float: left;
+    width: 30%;
+    height: 800px;
+    margin: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.topnav {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}

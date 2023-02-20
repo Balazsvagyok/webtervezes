@@ -24,14 +24,14 @@ body {
     justify-content: center;
     padding: 30px;
     margin: 20px;
-    border: 1px solid #333;
+    background-color: rgb(229, 229, 229);
     transition: all 0.3s ease 0s;
+    opacity: 0.8;
 }
 
 .content:hover {
     border-radius: 20px;
-    border-color: #333;
-    transform: scale(1.15);
+    transform: scale(1.13);
     transition: all 0.3s ease 0s;
 }
 
@@ -123,13 +123,30 @@ th {
 }
 
 @keyframes slidein {
-    0% {
+    from {
         opacity: 0;
         margin-bottom: 15%;
     }
-    100% {
-        opacity: 1;
+    to {
+        opacity: 0.8;
         margin-bottom: 0;
+    }
+}
+
+.slidein-left {
+    float: none;
+    animation-duration: 4s;
+    animation-name: slidein-left;
+}
+
+@keyframes slidein-left {
+    from {
+        opacity: 0;
+        margin-left: -30%;
+    }
+    to {
+        opacity: 1;
+        margin-left: -15%;
     }
 }
 
@@ -147,4 +164,14 @@ footer {
 .img_margin {
     margin: 20px;
     height: 300px;
+}
+
+.main {
+    position: absolute;
+    display: block;
+    margin: 0 0 0 -15%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }

@@ -56,7 +56,7 @@ body {
     font-size: 15pt;
     box-sizing: border-box;
     animation-name: telefon;
-    animation-duration: 3s;
+    animation-duration: 1.8s;
 }
 
 /* ----- navigáció ----- */
@@ -68,6 +68,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .topnav a {
@@ -129,7 +132,7 @@ th {
 
 .slidein {
     float: none;
-    animation-duration: 4s;
+    animation-duration: 4.2s;
     animation-name: slidein;
 }
 

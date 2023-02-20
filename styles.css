@@ -35,6 +35,8 @@ body {
     transition: all 0.3s ease 0s;
 }
 
+/* ----- telefon div ----- */
+
 .telefonok {
     width: 100%;
     box-sizing: border-box;
@@ -53,7 +55,11 @@ body {
     text-align: center;
     font-size: 15pt;
     box-sizing: border-box;
+    animation-name: telefon;
+    animation-duration: 3s;
 }
+
+/* ----- navigáció ----- */
 
 .topnav {
     margin: 0;
@@ -83,6 +89,8 @@ body {
     background-color: darkgrey;
     color: black;
 }
+
+/* ----- táblázat ----- */
 
 table {
     background: linear-gradient(90deg, darkgrey, lightgray);
@@ -116,6 +124,9 @@ th {
     margin-right: auto;
 }
 
+/* ----- animációk ----- */
+/* ----- középső navigáció animáció ----- */
+
 .slidein {
     float: none;
     animation-duration: 4s;
@@ -132,6 +143,8 @@ th {
         margin-bottom: 0;
     }
 }
+
+/* ----- bal oldali telefon animáció ----- */
 
 .slidein-left {
     float: none;
@@ -150,6 +163,8 @@ th {
     }
 }
 
+/* ----- jobb oldali telefon animáció ----- */
+
 .slidein-right {
     float: none;
     animation-duration: 4s;
@@ -167,6 +182,21 @@ th {
     }
 }
 
+/* ----- telefon adatok animáció -----*/
+
+@keyframes telefon {
+    from {
+        opacity: 0;
+        transform: scale(1.03);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ----- footer ----- */
+
 footer {
     position: absolute;
     bottom: 0;
@@ -183,6 +213,8 @@ footer {
     height: 300px;
 }
 
+/* ----- bal oldali telefonok helye ----- */
+
 .main-left {
     position: absolute;
     display: block;
@@ -191,6 +223,8 @@ footer {
     left: 0;
     z-index: -1;
 }
+
+/* ----- jobb oldali telefonok helye ----- */
 
 .main-right {
     position: absolute;

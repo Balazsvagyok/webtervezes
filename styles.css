@@ -37,22 +37,22 @@ body {
 
 .telefonok {
     width: 100%;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    box-sizing: border-box;
+
 }
 
 .telefon {
+    margin: 15px 35px 0 35px;
     border-radius: 20px;
-    background-color: darkgray;
+    background: linear-gradient(90deg, darkgrey, lightgray);
     float: left;
     width: 60vh;
     height: auto;
-    margin: 15px;
     padding-bottom: 15px;
     border: 1px solid black;
     text-align: center;
     font-size: 15pt;
+    box-sizing: border-box;
 }
 
 .topnav {
@@ -74,19 +74,23 @@ body {
 }
 
 .topnav a:hover {
-    background-color: darkgray;
-    color: black;
+    text-decoration: underline darkgrey;
+    color: white;
 }
 
 .topnav a.active {
-    background-color: lightgray;
+    text-decoration: underline darkgrey;
+    background-color: darkgrey;
     color: black;
+}
+
+table {
+    background: linear-gradient(90deg, darkgrey, lightgray);
 }
 
 table,
 tr,
 td {
-    background-color: darkgray;
     border-bottom: 2px solid black;
     text-align: justify;
     font-size: 15pt;
@@ -130,13 +134,14 @@ th {
 }
 
 footer {
-    margin-bottom: -10px;
     position: absolute;
     bottom: 0;
+    margin-bottom: -25px;
     height: 40px;
     width: 100%;
     overflow: hidden;
     text-align: right;
+    box-sizing: border-box;
 }
 
 .img_margin {

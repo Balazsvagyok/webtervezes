@@ -35,16 +35,16 @@ body {
     transition: all 0.3s ease 0s;
 }
 
+
 /* ----- telefon div ----- */
 
 .telefonok {
     width: 100%;
     box-sizing: border-box;
-
 }
 
 .telefon {
-    margin: 15px 35px 0 35px;
+    margin: 15px 0px 15px 27px;
     border-radius: 20px;
     background: linear-gradient(90deg, darkgrey, lightgray);
     float: left;
@@ -58,6 +58,7 @@ body {
     animation-name: telefon;
     animation-duration: 1.8s;
 }
+
 
 /* ----- navigáció ----- */
 
@@ -93,6 +94,7 @@ body {
     color: black;
 }
 
+
 /* ----- táblázat ----- */
 
 table {
@@ -111,7 +113,7 @@ td {
     font-weight: bold;
 }
 
-td:nth-child(2){
+td:nth-child(2) {
     text-align: center;
 }
 
@@ -127,7 +129,10 @@ th {
     margin-right: auto;
 }
 
+
 /* ----- animációk ----- */
+
+
 /* ----- középső navigáció animáció ----- */
 
 .slidein {
@@ -146,6 +151,7 @@ th {
         margin-bottom: 0;
     }
 }
+
 
 /* ----- bal oldali telefon animáció ----- */
 
@@ -166,6 +172,7 @@ th {
     }
 }
 
+
 /* ----- jobb oldali telefon animáció ----- */
 
 .slidein-right {
@@ -185,6 +192,7 @@ th {
     }
 }
 
+
 /* ----- telefon adatok animáció -----*/
 
 @keyframes telefon {
@@ -197,6 +205,7 @@ th {
         transform: scale(1);
     }
 }
+
 
 /* ----- footer ----- */
 
@@ -216,6 +225,7 @@ footer {
     height: 300px;
 }
 
+
 /* ----- bal oldali telefonok helye ----- */
 
 .main-left {
@@ -226,6 +236,7 @@ footer {
     left: 0;
     z-index: -1;
 }
+
 
 /* ----- jobb oldali telefonok helye ----- */
 

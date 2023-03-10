@@ -226,6 +226,19 @@ footer {
 }
 
 
+.video {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+iframe {
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: gray;
+}
+
 /* ----- bal oldali telefonok helye ----- */
 
 .main-left {
@@ -247,4 +260,5 @@ footer {
     top: 0;
     right: 0;
     z-index: -1;
+
 }

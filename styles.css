@@ -41,6 +41,8 @@ body {
 .telefonok {
     width: 100%;
     box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .telefon {
@@ -206,6 +208,27 @@ th {
     }
 }
 
+/* ----- űrlap animáció -----*/
+
+.registration {
+    float: none;
+    animation-duration: 1.5s;
+    animation-name: registration;
+}
+
+@keyframes registration {
+    0% {
+        transform: scale(0.98);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ----- animációk vége -----*/
 
 /* ----- footer ----- */
 
@@ -231,6 +254,7 @@ footer {
     height: 50%;
     margin: 0 auto;
     padding-top: 20px;
+    display: flex;
 }
 
 iframe {
@@ -248,6 +272,7 @@ iframe {
     top: 0;
     left: 0;
     z-index: -1;
+    box-sizing: border-box;
 }
 
 
@@ -260,5 +285,51 @@ iframe {
     top: 0;
     right: 0;
     z-index: -1;
+    box-sizing: border-box;
+}
 
+/* ----- űrlap ----- */
+
+.registration {
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    text-align: center;
+}
+
+.phone-border {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+    margin: 0 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+fieldset {
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+
+fieldset:hover {
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    transform: scale(1.15);
 }

@@ -24,7 +24,13 @@
 
         <div class="registration">
             <form method="POST" enctype="multipart/form-data">
-                <fieldset style="border-radius: 10px; margin: 10px 0">
+
+                <fieldset style="border-radius: 10px;">
+                    <legend>Van már fiókod?</legend>
+                    <input type="button" name="submit-btn" value="Bejelentkezés" onclick="window.location.href='index.html'" />
+                </fieldset>
+
+                <fieldset style="border-radius: 10px; margin: 18px 0">
                     <legend>Regisztrációs adatok</legend>
                     <label>TELJES NÉV <br /> <input type="text" name="full-name" /></label> <br />
                     <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="username" required /></label> <br />
@@ -54,14 +60,18 @@
                 <label for="brand-6">Realme</label>
                 <input type="checkbox" id="brand-6" name="brand-6" value="realme" /> <br /> <br />
 
-                <label>Profilkép: <input type="file" name="profile-pic" /></label> <br /> <br />
+                <label>Profilkép: <input type="file" name="profile-pic" /></label> <br />
                 <label for="introduction">Bemutatkozás (max. 200 karakter):</label> <br />
-                <textarea id="introduction" name="intro" maxlength="200"></textarea> <br />
+                <textarea id="introduction" name="intro" maxlength="200" rows="3" cols="50"></textarea> <br />
 
                 <input type="reset" name="reset-btn" value="Adatok törlése" />
-                <input type="submit" name="submit-btn" value="Adatok elküldése" />
+                <input type="submit" name="submit-btn" value="Regisztráció" />
             </form>
         </div>
     </div>
+
+    <footer style="position: sticky; bottom: 0;">
+        <p>Copyright © Szelekovszky Balázs, Kollár Edvárd 2023</p>
+    </footer>
 </body>
 </html>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Okostelefonok</title>
-    <meta charset="UTF-8"/>
-    <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs"/>
-    <link rel="icon" href="images/smartphone.png"/>
-    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
+    <link rel="icon" href="images/smartphone.png" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body style="overflow: hidden;">
     <header class="topnav">
         <a class="btn" href="index.html">Föoldal</a>
@@ -27,7 +29,7 @@
 
                 <fieldset style="border-radius: 10px;">
                     <legend>Van már fiókod?</legend>
-                    <input type="button" name="submit-btn" value="Bejelentkezés" onclick="window.location.href='index.html'" />
+                    <input type="button" name="submit-btn" value="Bejelentkezés" />
                 </fieldset>
 
                 <fieldset style="border-radius: 10px; margin: 18px 0">
@@ -38,15 +40,11 @@
                     <label>JELSZÓ ISMÉT <br /> <input type="password" name="passwd-check" required /></label> <br />
                     <label>SZÜLETÉSI DÁTUM <br /> <input type="date" name="date-of-birth" min="1920-01-01" /></label> <br />
                     <label>E-MAIL <br /> <input type="email" name="email" required /></label> <br />
-                </fieldset> <br />
-
-                Nem: <br />
+                </fieldset> <br /> Nem: <br />
                 <label for="op2">Nő</label>
                 <input type="radio" id="op2" name="sex" value="f" />
                 <label for="op1">Férfi</label>
-                <input type="radio" id="op1" name="sex" value="m" /> <br />
-
-                Kedvelt márka: <br />
+                <input type="radio" id="op1" name="sex" value="m" /> <br /> Kedvelt márka: <br />
                 <label for="brand-1">Samsung</label>
                 <input type="checkbox" id="brand-1" name="brand-1" value="samsung" /> <br />
                 <label for="brand-2">Apple</label>
@@ -74,4 +72,5 @@
         <p>Copyright © Szelekovszky Balázs, Kollár Edvárd 2023</p>
     </footer>
 </body>
+
 </html>

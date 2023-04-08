@@ -2,7 +2,7 @@
 <html lang="hu">
 
 <head>
-    <title>Samsung telefonok</title>
+    <title>Xiaomi telefonok</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
     <link rel="icon" href="images/smartphone.png" />
@@ -11,46 +11,38 @@
 
 <body>
 
-    <header class="topnav">
-        <a href="index.html">Föoldal</a>
-        <a class="active" href="samsung.html">Samsung</a>
-        <a href="apple.html">Apple</a>
-        <a href="xiaomi.html">Xiaomi</a>
-        <a href="huawei.html">Huawei</a>
-        <a href="lenovo.html">Lenovo</a>
-        <a href="realme.html">Realme</a>
-        <a href="registration.html">Profil</a>
-    </header>
+    <?php include_once "header.php"; ?>
+
 
     <main>
 
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/iBvfhAuSdUQ" width="1000" height="563"></iframe>
+            <iframe src="https://www.youtube.com/embed/aR9LMFOmMF0" width="1000" height="563"></iframe>
         </div>
 
 
         <div class="telefonok">
             <div class="telefon">
-                <img class="img_margin" src="images/galaxy_z_fold4.png" alt="Samsung Galaxy Z Fold4" onmouseover="this.src='images/galaxy_z_fold4_2.png';" onmouseout="this.src='images/galaxy_z_fold4.png';">
+                <img class="img_margin" src="images/xiaomi_12t_pro.png" alt="Xiaomi 12T Pro" onmouseover="this.src='images/xiaomi_12t_pro2.png';" onmouseout="this.src='images/xiaomi_12t_pro.png';">
                 <table class="center">
                     <tr>
-                        <th colspan="2">Galaxy Z Fold4</th>
+                        <th colspan="2">Xiaomi 12T Pro</th>
                     </tr>
                     <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>7,6 "</td>
+                        <td> Kijelző mérete: </td>
+                        <td>6,67 "</td>
                     </tr>
                     <tr>
                         <td>Akkumulátor kapacitása: </td>
-                        <td>4400 mAh</td>
+                        <td>5000 mAh</td>
                     </tr>
                     <tr>
                         <td>Kijelző felbontása: </td>
-                        <td>2176x1812 px</td>
+                        <td>2712x1220 px</td>
                     </tr>
                     <tr>
                         <td>Kijelző technológia: </td>
-                        <td>Foldable Dynamic AMOLED 2X</td>
+                        <td>AMOLED DotDisplay</td>
                     </tr>
                     <tr>
                         <td>Képfrissítés: </td>
@@ -62,7 +54,322 @@
                     </tr>
                     <tr>
                         <td>ROM: </td>
-                        <td>512 GB</td>
+                        <td>256 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>200 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Makró kamera felbontása: </td>
+                        <td>2 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>20 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>120 W</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>205 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/xiaomi_12t.png" alt="Xiaomi 12T" onmouseover="this.src='images/xiaomi_12t2.png';" onmouseout="this.src='images/xiaomi_12t.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Xiaomi 12T</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>6,67 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>5000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>2712x1220 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>AMOLED DotDisplay</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>120 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>Snapdragon 8+ Gen 1</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>128 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>108 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Makró kamera felbontása: </td>
+                        <td>2 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>20 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>120 W</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>202 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/redmi_note_11.png" alt="Xiaomi Redmi Note 11" onmouseover="this.src='images/redmi_note_112.png';" onmouseout="this.src='images/redmi_note_11.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Redmi Note 11</th>
+                    </tr>
+                    <tr>
+                        <td>Kijelző mérete: </td>
+                        <td>6,43 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>5000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>2400x1080 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>AMOLED DotDisplay</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>90 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>Snapdragon 680</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>64 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>4 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>50 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Makró kamera felbontása: </td>
+                        <td>2 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Mélységszenzor felbontása: </td>
+                        <td>2 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>13 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>33 W</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>179 g</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="telefonok">
+            <div class="telefon">
+                <img class="img_margin" src="images/redmi_note_11_pro.png" alt="Xiaomi Redmi Note 11 Pro" onmouseover="this.src='images/redmi_note_11_pro_2.png';" onmouseout="this.src = 'images/redmi_note_11_pro.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Redmi Note 11 Pro</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>6,67 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>5000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>2400x1080 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>AMOLED DotDisplay</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>120 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>Snapdragon 695</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>128 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>6 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>108 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Makró kamera felbontása: </td>
+                        <td>2 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>16 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>67 W</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>202 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/xiaomi_12_pro.png" alt="Xiaomi 12 Pro" onmouseover="this.src='images/xiaomi_12_pro_2.png';" onmouseout="this.src='images/xiaomi_12_pro.png'">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Xiaomi 12 Pro</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>6,73 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>4600 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>3200x1440 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>AMOLED DotDisplay</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>120 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>Snapdragon 8 Gen 1</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>256 GB</td>
                     </tr>
                     <tr>
                         <td>RAM: </td>
@@ -78,241 +385,19 @@
                     </tr>
                     <tr>
                         <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>263 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/galaxy_s23.png" alt="Samsung Galaxy S23" onmouseover="this.src='images/galaxy_s23_2.png';" onmouseout="this.src='images/galaxy_s23.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Galaxy S23</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,1 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>3900 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2340x1080 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>Dynamic AMOLED 2X</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 2</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
                         <td>50 MP</td>
                     </tr>
                     <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
                         <td>Telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>168 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/galaxy_s23_ultra.png" alt="Samsung Galaxy S23 Ulra" onmouseover="this.src='images/galaxy_s23_ultra_2.png';" onmouseout="this.src='images/galaxy_s23_ultra.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Galaxy S23 Ultra</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,8 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>3088x1440 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>Dynamic AMOLED 2X</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 2</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>200 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>234 g</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="telefonok">
-            <div class="telefon">
-                <img class="img_margin" src="images/galaxy_s22.png" alt="Samsung Galaxy S22" onmouseover="this.src='images/galaxy_s22_2.png';" onmouseout="this.src = 'images/galaxy_s22.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Galaxy S22</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,1 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>3700 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2340x1080 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>Dynamic AMOLED 2X</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
                         <td>50 MP</td>
                     </tr>
                     <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
                         <td>Elülső kamera felbontása: </td>
-                        <td>10 MP</td>
+                        <td>32 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>120 W</td>
                     </tr>
                     <tr>
                         <td>Támogatott mobilhálózat: </td>
@@ -324,101 +409,24 @@
                     </tr>
                     <tr>
                         <td>Súly: </td>
-                        <td>167 g</td>
+                        <td>205 g</td>
                     </tr>
                 </table>
             </div>
             <div class="telefon">
-                <img class="img_margin" src="images/galaxy_s22_ultra.png" alt="Samsung Galaxy S22 Ultra" onmouseover="this.src = 'images/galaxy_s22_ultra_2.png';" onmouseout="this.src = 'images/galaxy_s22_ultra.png';">
+                <img class="img_margin" src="images/xiaomi_12.png" alt="Xiaomi 12" onmouseover="this.src='images/xiaomi_12_2.png';" onmouseout="this.src='images/xiaomi_12.png'">
 
                 <table class="center">
                     <tr>
-                        <th colspan="2">Galaxy S22 Ultra</th>
+                        <th colspan="2">Xiaomi 12</th>
                     </tr>
                     <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,8 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>3088x1440 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>Dynamic AMOLED 2X</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>108 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
-                        <td>10 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>40 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>228 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/galaxy_a51.png" alt="Samsung Galaxy A51" onmouseover="this.src = 'images/galaxy_a51_2.png';" onmouseout="this.src = 'images/galaxy_a51.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Galaxy A51</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,5 "</td>
+                        <td> Kijelző mérete: </td>
+                        <td>6,28 "</td>
                     </tr>
                     <tr>
                         <td>Akkumulátor kapacitása: </td>
-                        <td>4000 mAh</td>
+                        <td>4500 mAh</td>
                     </tr>
                     <tr>
                         <td>Kijelző felbontása: </td>
@@ -426,15 +434,15 @@
                     </tr>
                     <tr>
                         <td>Kijelző technológia: </td>
-                        <td>Super AMOLED</td>
+                        <td>AMOLED DotDisplay</td>
                     </tr>
                     <tr>
                         <td>Képfrissítés: </td>
-                        <td>60 Hz</td>
+                        <td>120 Hz</td>
                     </tr>
                     <tr>
                         <td>Processzor: </td>
-                        <td>Exynos 9611</td>
+                        <td>Snapdragon 8 Gen 1</td>
                     </tr>
                     <tr>
                         <td>ROM: </td>
@@ -442,26 +450,22 @@
                     </tr>
                     <tr>
                         <td>RAM: </td>
-                        <td>4 GB</td>
+                        <td>8 GB</td>
                     </tr>
                     <tr>
                         <td>Hátlapi kamerák száma: </td>
-                        <td>4</td>
+                        <td>3</td>
                     </tr>
                     <tr>
                         <td>Hátlapi főkamera felbontása: </td>
-                        <td>48 MP</td>
+                        <td>50 MP</td>
                     </tr>
                     <tr>
                         <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
+                        <td>13 MP</td>
                     </tr>
                     <tr>
                         <td>Makró kamera felbontása: </td>
-                        <td>5 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Mélységszenzor felbontása: </td>
                         <td>5 MP</td>
                     </tr>
                     <tr>
@@ -469,8 +473,12 @@
                         <td>32 MP</td>
                     </tr>
                     <tr>
+                        <td>Töltési teljesítmény: </td>
+                        <td>67 W</td>
+                    </tr>
+                    <tr>
                         <td>Támogatott mobilhálózat: </td>
-                        <td>4G</td>
+                        <td>5G</td>
                     </tr>
                     <tr>
                         <td>NFC támogatás: </td>
@@ -478,16 +486,14 @@
                     </tr>
                     <tr>
                         <td>Súly: </td>
-                        <td>172 g</td>
+                        <td>180 g</td>
                     </tr>
                 </table>
             </div>
         </div>
     </main>
 
-    <footer>
-        <p>Copyright © Szelekovszky Balázs, Kollár Edvárd 2023</p>
-    </footer>
+    <?php include_once "footer.php"; ?>
 
 </body>
 

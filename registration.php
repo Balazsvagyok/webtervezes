@@ -10,16 +10,8 @@
 </head>
 
 <body style="overflow: hidden;">
-    <header class="topnav">
-        <a class="btn" href="index.html">Föoldal</a>
-        <a href="samsung.html">Samsung</a>
-        <a href="apple.html">Apple</a>
-        <a href="xiaomi.html">Xiaomi</a>
-        <a href="huawei.html">Huawei</a>
-        <a href="lenovo.html">Lenovo</a>
-        <a href="realme.html">Realme</a>
-        <a class="active" href="registration.html">Profil</a>
-    </header>
+    
+    <?php include_once "header.php"; ?>
 
     <div class="phone-border">
         <img src="images/phone-border.png" alt="phone-border" width="700" />
@@ -68,9 +60,8 @@
         </div>
     </div>
 
-    <footer style="position: sticky; bottom: 0;">
-        <p>Copyright © Szelekovszky Balázs, Kollár Edvárd 2023</p>
-    </footer>
+    <?php include_once "footer.php"; ?>
+
 </body>
 
 </html>

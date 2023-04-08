@@ -2,7 +2,7 @@
 <html lang="hu">
 
 <head>
-    <title>Huawei telefonok</title>
+    <title>Lenovo telefonok</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
     <link rel="icon" href="images/smartphone.png" />
@@ -11,54 +11,45 @@
 
 <body>
 
-    <header class="topnav">
-        <a href="index.html">Föoldal</a>
-        <a href="samsung.html">Samsung</a>
-        <a href="apple.html">Apple</a>
-        <a href="xiaomi.html">Xiaomi</a>
-        <a class="active" href="huawei.html">Huawei</a>
-        <a href="lenovo.html">Lenovo</a>
-        <a href="realme.html">Realme</a>
-        <a href="registration.html">Profil</a>
-    </header>
+    <?php include_once "header.php"; ?>
 
     <main>
 
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/54tGywFswXs" width="1000" height="563"></iframe>
+            <iframe src="https://www.youtube.com/embed/wd5MgMlsNA8" width="1000" height="563"></iframe>
         </div>
 
 
         <div class="telefonok">
             <div class="telefon">
-                <img class="img_margin" src="images/huawei_mate50_pro.png" alt="Huawei Mate50 Pro" onmouseover="this.src='images/huawei_mate50_pro_2.png';" onmouseout="this.src='images/huawei_mate50_pro.png';">
+                <img class="img_margin" src="images/lenovo_y70.png" alt="Lenovo Y70" onmouseover="this.src='images/lenovo_y70_2.png';" onmouseout="this.src='images/lenovo_y70.png';">
                 <table class="center">
                     <tr>
-                        <th colspan="2">Mate 50 Pro</th>
+                        <th colspan="2">Lenovo Legion Y70</th>
                     </tr>
                     <tr>
                         <td>Kijelző mérete: </td>
-                        <td>6,74 "</td>
+                        <td>6,5 "</td>
                     </tr>
                     <tr>
                         <td>Akkumulátor kapacitása: </td>
-                        <td>4700 mAh</td>
+                        <td>5000 mAh</td>
                     </tr>
                     <tr>
                         <td>Kijelző felbontása: </td>
-                        <td>2616x1212 px</td>
+                        <td>2400x1080 px</td>
                     </tr>
                     <tr>
                         <td>Kijelző technológia: </td>
-                        <td>OLED</td>
+                        <td>AMOLED</td>
                     </tr>
                     <tr>
                         <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
+                        <td>144 Hz</td>
                     </tr>
                     <tr>
                         <td>Processzor: </td>
-                        <td>Snapdragon 8+ Gen 1 4G</td>
+                        <td>Snapdragon 865+</td>
                     </tr>
                     <tr>
                         <td>ROM: </td>
@@ -66,7 +57,7 @@
                     </tr>
                     <tr>
                         <td>RAM: </td>
-                        <td>8 GB</td>
+                        <td>12 GB</td>
                     </tr>
                     <tr>
                         <td>Hátlapi kamerák száma: </td>
@@ -74,314 +65,15 @@
                     </tr>
                     <tr>
                         <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
                         <td>64 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>4G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>205 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/huawei_mate40_pro.png" alt="Huawei Mate40 Pro" onmouseover="this.src='images/huawei_mate40_pro_2.png';" onmouseout="this.src='images/huawei_mate40_pro.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Mate 40 Pro</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,76 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4400 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2772x1344 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>OLED</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>90 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Kirin 9000 5G</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>20 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>212 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/huawei_mate_xs.png" alt="Huawei Mate Xs" onmouseover="this.src='images/huawei_mate_xs_2.png';" onmouseout="this.src='images/huawei_mate_xs.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Mate Xs</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>8,0 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4500 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2480x2200 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>Foldable OLED</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>60 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Kirin 990 5G</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>512 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>40 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>16 MP</td>
                     </tr>
                     <tr>
                         <td>Telefotó kamera felbontása: </td>
-                        <td>8 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>300 g</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="telefonok">
-            <div class="telefon">
-                <img class="img_margin" src="images/huawei_p50_pro.png" alt="Huawei P50 Pro" onmouseover="this.src='images/huawei_p50_pro_2.png';" onmouseout="this.src='images/huawei_p50_pro.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Huawei P50 Pro</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,6 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4360 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2700x1228 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>OLED</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Kirin 9000</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
-                        <td>64 MP</td>
-                    </tr>
-                    <tr>
-                        <td>B/W kamera felbontása: </td>
-                        <td>40 MP</td>
+                        <td>16 MP</td>
                     </tr>
                     <tr>
                         <td>Elülső kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>4G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>195 g</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="telefon">
-                <img class="img_margin" src="images/huawei_p40_pro.png" alt="Huawei P40 Pro" onmouseover="this.src='images/huawei_p40_pro_2.png';" onmouseout="this.src='images/huawei_p40_pro.png';">
-
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Huawei P40 Pro</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,58 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4200 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2640x1200 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>OLED</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>90 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Kirin 990 5G</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>40 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Periszkóp telefotó kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>32 MP</td>
+                        <td>20 MP</td>
                     </tr>
                     <tr>
                         <td>Támogatott mobilhálózat: </td>
@@ -398,19 +90,19 @@
                 </table>
             </div>
             <div class="telefon">
-                <img class="img_margin" src="images/huawei_p40.png" alt="Huawei P40" onmouseover="this.src='images/huawei_p40_2.png';" onmouseout="this.src='images/huawei_p40.png';">
+                <img class="img_margin" src="images/lenovo_y90.png" alt="Lenovo Y90" onmouseover="this.src='images/lenovo_y90_2.png';" onmouseout="this.src='images/lenovo_y90.png';">
 
                 <table class="center">
                     <tr>
-                        <th colspan="2">Huawei P40</th>
+                        <th colspan="2">Lenovo Legion Y90</th>
                     </tr>
                     <tr>
                         <td>Kijelző mérete: </td>
-                        <td>6,0 "</td>
+                        <td>6,4 "</td>
                     </tr>
                     <tr>
                         <td>Akkumulátor kapacitása: </td>
-                        <td>3800 mAh</td>
+                        <td>4500 mAh</td>
                     </tr>
                     <tr>
                         <td>Kijelző felbontása: </td>
@@ -418,43 +110,39 @@
                     </tr>
                     <tr>
                         <td>Kijelző technológia: </td>
-                        <td>OLED</td>
+                        <td>AMOLED</td>
                     </tr>
                     <tr>
                         <td>Képfrissítés: </td>
-                        <td>60 Hz</td>
+                        <td>120 Hz</td>
                     </tr>
                     <tr>
                         <td>Processzor: </td>
-                        <td>Kirin 990 5G</td>
+                        <td>Snapdragon 855+</td>
                     </tr>
                     <tr>
                         <td>ROM: </td>
-                        <td>128 GB</td>
+                        <td>256 GB</td>
                     </tr>
                     <tr>
                         <td>RAM: </td>
-                        <td>6 GB</td>
+                        <td>8 GB</td>
                     </tr>
                     <tr>
                         <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
+                        <td>2</td>
                     </tr>
                     <tr>
                         <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
+                        <td>48 MP</td>
                     </tr>
                     <tr>
                         <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>16 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
                         <td>8 MP</td>
                     </tr>
                     <tr>
                         <td>Elülső kamera felbontása: </td>
-                        <td>32 MP</td>
+                        <td>12 MP</td>
                     </tr>
                     <tr>
                         <td>Támogatott mobilhálózat: </td>
@@ -466,16 +154,289 @@
                     </tr>
                     <tr>
                         <td>Súly: </td>
-                        <td>175 g</td>
+                        <td>252 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/lenovo_k14_plus.png" alt="Lenovo K14 Plus" onmouseover="this.src='images/lenovo_k14_plus_2.png';" onmouseout="this.src='images/lenovo_k14_plus.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Lenovo K14 Plus</th>
+                    </tr>
+                    <tr>
+                        <td>Kijelző mérete: </td>
+                        <td>6,2 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>5000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>1520x720 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>IPS LCD</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>60 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>MEDIATEK Helio P22</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>64 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>4 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>64 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>198 g</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="telefonok">
+            <div class="telefon">
+                <img class="img_margin" src="images/lenovo_k13_pro.png" alt="Lenovo K13 Pro" onmouseover="this.src='images/lenovo_k13_pro_2.png';" onmouseout="this.src='images/lenovo_k13_pro.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Lenovo K13 Pro</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>6,5 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>6000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>1600x720 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>IPS LCD</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>90 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>MEDIATEK Helio G35</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>128 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>6 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>64 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>13 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>200 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/lenovo_k13.png" alt="Lenovo K13" onmouseover="this.src='images/lenovo_k13_2.png';" onmouseout="this.src='images/lenovo_k13.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Lenovo K13</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>5,4 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>2438 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>1600x720 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>IPS LCD</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>60 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>MEDIATEK Helio G25</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>64 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>3 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>13 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>5 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>200 g</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="telefon">
+                <img class="img_margin" src="images/lenovo_k13_note.png" alt="Lenovo K13 Note" onmouseover="this.src='images/lenovo_k13_note_2.png';" onmouseout="this.src='images/lenovo_k13_note.png';">
+
+                <table class="center">
+                    <tr>
+                        <th colspan="2">Lenovo K13 Note</th>
+                    </tr>
+                    <tr>
+                        <td> Kijelző mérete: </td>
+                        <td>6,5 "</td>
+                    </tr>
+                    <tr>
+                        <td>Akkumulátor kapacitása: </td>
+                        <td>5000 mAh</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző felbontása: </td>
+                        <td>1600x720 px</td>
+                    </tr>
+                    <tr>
+                        <td>Kijelző technológia: </td>
+                        <td>IPS LCD</td>
+                    </tr>
+                    <tr>
+                        <td>Képfrissítés: </td>
+                        <td>60 Hz</td>
+                    </tr>
+                    <tr>
+                        <td>Processzor: </td>
+                        <td>UNISOC SC9863A</td>
+                    </tr>
+                    <tr>
+                        <td>ROM: </td>
+                        <td>128 GB</td>
+                    </tr>
+                    <tr>
+                        <td>RAM: </td>
+                        <td>4 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi kamerák száma: </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Hátlapi főkamera felbontása: </td>
+                        <td>48 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra-széles látószögű kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Elülső kamera felbontása: </td>
+                        <td>8 MP</td>
+                    </tr>
+                    <tr>
+                        <td>Támogatott mobilhálózat: </td>
+                        <td>5G</td>
+                    </tr>
+                    <tr>
+                        <td>NFC támogatás: </td>
+                        <td>Igen</td>
+                    </tr>
+                    <tr>
+                        <td>Súly: </td>
+                        <td>200 g</td>
                     </tr>
                 </table>
             </div>
         </div>
     </main>
 
-    <footer>
-        <p>Copyright © Szelekovszky Balázs, Kollár Edvárd 2023</p>
-    </footer>
+    <?php include_once "footer.php"; ?>
 
 </body>
 

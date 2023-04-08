@@ -23,75 +23,31 @@
         <div class="telefonok">
             <div class="telefon">
                 <img class="img_margin" src="images/iphone_14_pro.png" alt="iPhone 14 Pro" onmouseover="this.src='images/iphone_14_pro_2.png';" onmouseout="this.src='images/iphone_14_pro.png';">
-                <table class="center">
-                    <tr>
-                        <th colspan="2">iPhone 14 Pro</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,1 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>3200 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2556x1179 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>LTPO Super Retina XDR OLED</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Apple A16 Bionic</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>6 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>48 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>12 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>206 g</td>
-                    </tr>
-                </table>
+                
+                <?php
+                    include 'mytable.php';
+
+                    $data = array(
+                        array('Kijelző mérete:', '6,1 "'),
+                        array('Akkumulátor kapacitása:', '3200 mAh'),
+                        array('Kijelző felbontása:', '2556x1179 px'),
+                        array('Kijelző technológia:', 'LTPO Super Retina XDR OLED'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Apple A16 Bionic'),
+                        array('ROM:', '256 GB'),
+                        array('RAM:', '6 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '48 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '12 MP'),
+                        array('Telefotó kamera felbontása:', '12 MP'),
+                        array('Elülső kamera felbontása:', '12 MP'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '206 g'),
+                    );
+
+                    createTable('iPhone 14 Pro', $data);
+                ?>
             </div>
             <div class="telefon">
                 <img class="img_margin" src="images/iphone_14.png" alt="iPhone 14" onmouseover="this.src='images/iphone_14_2.png';" onmouseout="this.src='images/iphone_14.png';">

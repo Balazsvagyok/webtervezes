@@ -24,237 +24,90 @@
         <div class="telefonok">
             <div class="telefon">
                 <img class="img_margin" src="images/xiaomi_12t_pro.png" alt="Xiaomi 12T Pro" onmouseover="this.src='images/xiaomi_12t_pro2.png';" onmouseout="this.src='images/xiaomi_12t_pro.png';">
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Xiaomi 12T Pro</th>
-                    </tr>
-                    <tr>
-                        <td> Kijelző mérete: </td>
-                        <td>6,67 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2712x1220 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8+ Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>200 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>8 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Makró kamera felbontása: </td>
-                        <td>2 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>20 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>120 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>205 g</td>
-                    </tr>
-                </table>
+                
+                <?php
+                    include 'mytable.php';
+
+                    $data = array(
+                        array('Kijelző mérete:', '6,67 "'),
+                        array('Akkumulátor kapacitása:', '5000 mAh'),
+                        array('Kijelző felbontása:', '2712x1220 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Snapdragon 8+ Gen 1'),
+                        array('ROM:', '256 GB'),
+                        array('RAM:', '8 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '200 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '8 MP'),
+                        array('Makró kamera felbontása:', '2 MP'),
+                        array('Elülső kamera felbontása:', '20 MP'),
+                        array('Töltési teljesítmény:', '120 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '205 g'),
+                    );
+
+                    createTable('Xiaomi 12T Pro', $data);
+                ?>
+                
             </div>
             <div class="telefon">
                 <img class="img_margin" src="images/xiaomi_12t.png" alt="Xiaomi 12T" onmouseover="this.src='images/xiaomi_12t2.png';" onmouseout="this.src='images/xiaomi_12t.png';">
 
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Xiaomi 12T</th>
-                    </tr>
-                    <tr>
-                        <td> Kijelző mérete: </td>
-                        <td>6,67 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2712x1220 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8+ Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>128 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>108 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>8 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Makró kamera felbontása: </td>
-                        <td>2 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>20 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>120 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>202 g</td>
-                    </tr>
-                </table>
+                <?php
+                    $data = array(
+                        array('Kijelző mérete:', '6,67 "'),
+                        array('Akkumulátor kapacitása:', '5000 mAh'),
+                        array('Kijelző felbontása:', '2712x1220 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Snapdragon 8+ Gen 1'),
+                        array('ROM:', '128 GB'),
+                        array('RAM:', '8 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '108 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '8 MP'),
+                        array('Makró kamera felbontása:', '2 MP'),
+                        array('Elülső kamera felbontása:', '20 MP'),
+                        array('Töltési teljesítmény:', '120 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '202 g'),
+                    );
+
+                    createTable('Xiaomi 12T', $data);
+                ?>
+                
             </div>
             <div class="telefon">
                 <img class="img_margin" src="images/redmi_note_11.png" alt="Xiaomi Redmi Note 11" onmouseover="this.src='images/redmi_note_112.png';" onmouseout="this.src='images/redmi_note_11.png';">
 
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Redmi Note 11</th>
-                    </tr>
-                    <tr>
-                        <td>Kijelző mérete: </td>
-                        <td>6,43 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2400x1080 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>90 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 680</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>64 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>4 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>8 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Makró kamera felbontása: </td>
-                        <td>2 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Mélységszenzor felbontása: </td>
-                        <td>2 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>33 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>179 g</td>
-                    </tr>
-                </table>
+                <?php
+                    $data = array(
+                        array('Kijelző mérete:', '6,43 "'),
+                        array('Akkumulátor kapacitása:', '5000 mAh'),
+                        array('Kijelző felbontása:', '2400x1080 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '90 Hz'),
+                        array('Processzor:', 'Snapdragon 680'),
+                        array('ROM:', '64 GB'),
+                        array('RAM:', '4 GB'),
+                        array('Hátlapi kamerák száma', '4'),
+                        array('Hátlapi főkamera felbontása:', '50 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '8 MP'),
+                        array('Makró kamera felbontása:', '2 MP'),
+                        array('Mélységszenzor felbontása:', '2 MP'),
+                        array('Elülső kamera felbontása:', '13 MP'),
+                        array('Töltési teljesítmény:', '33 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '179 g'),
+                    );
+
+                    createTable('Redmi Note 11', $data);
+                ?>
+                
             </div>
         </div>
 
@@ -262,233 +115,86 @@
             <div class="telefon">
                 <img class="img_margin" src="images/redmi_note_11_pro.png" alt="Xiaomi Redmi Note 11 Pro" onmouseover="this.src='images/redmi_note_11_pro_2.png';" onmouseout="this.src = 'images/redmi_note_11_pro.png';">
 
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Redmi Note 11 Pro</th>
-                    </tr>
-                    <tr>
-                        <td> Kijelző mérete: </td>
-                        <td>6,67 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>5000 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2400x1080 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 695</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>128 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>6 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>108 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>8 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Makró kamera felbontása: </td>
-                        <td>2 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>16 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>67 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>202 g</td>
-                    </tr>
-                </table>
+                <?php
+                    $data = array(
+                        array('Kijelző mérete:', '6,67 "'),
+                        array('Akkumulátor kapacitása:', '5000 mAh'),
+                        array('Kijelző felbontása:', '2400x1080 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Snapdragon 695'),
+                        array('ROM:', '128 GB'),
+                        array('RAM:', '6 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '108 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '8 MP'),
+                        array('Makró kamera felbontása:', '2 MP'),
+                        array('Elülső kamera felbontása:', '16 MP'),
+                        array('Töltési teljesítmény:', '67 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '202 g'),
+                    );
+
+                    createTable('Redmi Note 11 Pro', $data);
+                ?>
+                
             </div>
             <div class="telefon">
                 <img class="img_margin" src="images/xiaomi_12_pro.png" alt="Xiaomi 12 Pro" onmouseover="this.src='images/xiaomi_12_pro_2.png';" onmouseout="this.src='images/xiaomi_12_pro.png'">
 
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Xiaomi 12 Pro</th>
-                    </tr>
-                    <tr>
-                        <td> Kijelző mérete: </td>
-                        <td>6,73 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4600 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>3200x1440 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>256 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>12 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Telefotó kamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>32 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>120 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>205 g</td>
-                    </tr>
-                </table>
+                <?php
+                    $data = array(
+                        array('Kijelző mérete:', '6,73 "'),
+                        array('Akkumulátor kapacitása:', '4600 mAh'),
+                        array('Kijelző felbontása:', '3200x1440 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Snapdragon 8 Gen 1'),
+                        array('ROM:', '256 GB'),
+                        array('RAM:', '12 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '50 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '50 MP'),
+                        array('Telefotó kamera felbontása:', '50 MP'),
+                        array('Elülső kamera felbontása:', '32 MP'),
+                        array('Töltési teljesítmény:', '120 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '205 g'),
+                    );
+
+                    createTable('Xiaomi 12 Pro', $data);
+                ?>
+                
             </div>
             <div class="telefon">
                 <img class="img_margin" src="images/xiaomi_12.png" alt="Xiaomi 12" onmouseover="this.src='images/xiaomi_12_2.png';" onmouseout="this.src='images/xiaomi_12.png'">
 
-                <table class="center">
-                    <tr>
-                        <th colspan="2">Xiaomi 12</th>
-                    </tr>
-                    <tr>
-                        <td> Kijelző mérete: </td>
-                        <td>6,28 "</td>
-                    </tr>
-                    <tr>
-                        <td>Akkumulátor kapacitása: </td>
-                        <td>4500 mAh</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző felbontása: </td>
-                        <td>2400x1080 px</td>
-                    </tr>
-                    <tr>
-                        <td>Kijelző technológia: </td>
-                        <td>AMOLED DotDisplay</td>
-                    </tr>
-                    <tr>
-                        <td>Képfrissítés: </td>
-                        <td>120 Hz</td>
-                    </tr>
-                    <tr>
-                        <td>Processzor: </td>
-                        <td>Snapdragon 8 Gen 1</td>
-                    </tr>
-                    <tr>
-                        <td>ROM: </td>
-                        <td>128 GB</td>
-                    </tr>
-                    <tr>
-                        <td>RAM: </td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi kamerák száma: </td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Hátlapi főkamera felbontása: </td>
-                        <td>50 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Ultra-széles látószögű kamera felbontása: </td>
-                        <td>13 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Makró kamera felbontása: </td>
-                        <td>5 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Elülső kamera felbontása: </td>
-                        <td>32 MP</td>
-                    </tr>
-                    <tr>
-                        <td>Töltési teljesítmény: </td>
-                        <td>67 W</td>
-                    </tr>
-                    <tr>
-                        <td>Támogatott mobilhálózat: </td>
-                        <td>5G</td>
-                    </tr>
-                    <tr>
-                        <td>NFC támogatás: </td>
-                        <td>Igen</td>
-                    </tr>
-                    <tr>
-                        <td>Súly: </td>
-                        <td>180 g</td>
-                    </tr>
-                </table>
+                <?php
+                    $data = array(
+                        array('Kijelző mérete:', '6,28 "'),
+                        array('Akkumulátor kapacitása:', '4500 mAh'),
+                        array('Kijelző felbontása:', '2400x1080 px'),
+                        array('Kijelző technológia:', 'AMOLED DotDisplay'),
+                        array('Képfrissítés:', '120 Hz'),
+                        array('Processzor:', 'Snapdragon 8 Gen 1'),
+                        array('ROM:', '128 GB'),
+                        array('RAM:', '8 GB'),
+                        array('Hátlapi kamerák száma', '3'),
+                        array('Hátlapi főkamera felbontása:', '50 MP'),
+                        array('Ultra-széles látószögű kamera felbontása:', '13 MP'),
+                        array('Makró kamera felbontása:', '5 MP'),
+                        array('Elülső kamera felbontása:', '32 MP'),
+                        array('Töltési teljesítmény:', '67 W'),
+                        array('Támogatott mobilhálózat:', '5G'),
+                        array('NFC támogatás:', 'Igen'),
+                        array('Súly:', '180 g'),
+                    );
+
+                    createTable('Xiaomi 12', $data);
+                ?>
+                
             </div>
         </div>
     </main>

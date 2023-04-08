@@ -15,32 +15,32 @@
 
     <main>
         <div class="container">
-            <a href="samsung.html">
+            <a href="samsung.php">
                 <div class="content slidein">
                     <img src="images/samsung_logo.png" alt="Samsung logo" height="50">
                 </div>
             </a>
-            <a href="apple.html">
+            <a href="apple.php">
                 <div class="content slidein">
                     <img src="images/apple_logo.png" alt="Apple logo" height="50" />
                 </div>
             </a>
-            <a href="xiaomi.html">
+            <a href="xiaomi.php">
                 <div class="content slidein">
                     <img src="images/xiaomi_logo.png" alt="Xiaomi logo" height="50">
                 </div>
             </a>
-            <a href="huawei.html">
+            <a href="huawei.php">
                 <div class="content slidein">
                     <img src="images/huawei_logo.png" alt="Huawei logo" height="50">
                 </div>
             </a>
-            <a href="lenovo.html">
+            <a href="lenovo.php">
                 <div class="content slidein">
                     <img src="images/lenovo_logo.png" alt="Lenovo logo" height="50">
                 </div>
             </a>
-            <a href="realme.html">
+            <a href="realme.php">
                 <div class="content slidein">
                     <img src="images/realme_logo.png" alt="Realme logo" height="50">
                 </div>

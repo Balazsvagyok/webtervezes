@@ -33,7 +33,7 @@ if(isset($_POST['submit-btn'])) {
     $errors = array();
 
     if($full_name !== "-1" && strlen($full_name) < 5) {
-        $errors[] = 'A teljes név legalább 5 karakter hoszzú kell, hogy legyen, vagy üresen is hagyhatja,';
+        $errors[] = 'A teljes név legalább 5 karakter hoszzú kell, hogy legyen, vagy üresen is hagyhatja.';
     }
     if(strlen($username) < 5) {
         $errors[] = 'A felhasználónév legalább 5 karakter hosszú kell, hogy legyen.';
@@ -74,7 +74,7 @@ if(isset($_POST['submit-btn'])) {
       }
     else {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-        fwrite($file, "$full_name,$username,$hashed_password,$date_of_birth,$email,$sex,$introduction\n");
+        fwrite($file, "\n$full_name,$username,$hashed_password,$date_of_birth,$email,$sex,$introduction");
         fclose($file);
         
         session_start();

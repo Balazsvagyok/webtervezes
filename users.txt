@@ -1,2 +1,3 @@
-Teszt Elek,Elek123,$2y$10$0rb9tBpdf.s/Ck5PqiICguv26nUcfQC7oNt03D0tcDvcjhe.9AjFm,2002-01-02,elek@gmail.com,m,
-Teszt Elek,Elek1234,$2y$10$gAyuWtn4RMCxxCoZ6FFiFuouNuIfkzT6eIUwqJRXCR1UYEnVmiHvy,0000-00-00,elek2@gmail.com,m,
+Nem Alma,Alma1,$2y$10$zM.pH8gnn6NVmjbXT8VYtOKivKlRGyV3y5emFtezvPTcssAg0jQha,0000-00-00,alma@alma.com,f
+Teszt Elek,Elek1234,$2y$10$7SdpJgB1wqzBCM9duxFggusM9MLQTAhsqH4GxtA/SR32c4IytGVBa,0000-00-00,elek2@gmail.com,m
+Banán,Banán1,$2y$10$DGERgxNx5eww50oFPj2SjeUC82GOd.PF3HF9qpwS1iwwjMROZsbfO,0000-00-00,banan@banan,f,

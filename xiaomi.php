@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="hu">
 
+<?php
+session_start();
+if(isset($_SESSION['username'])) {
+    echo 'Bejelentkezve: ' . $_SESSION['username'];
+}
+?>
+
 <head>
     <title>Xiaomi telefonok</title>
     <meta charset="UTF-8" />

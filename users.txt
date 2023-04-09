@@ -1,0 +1,2 @@
+Teszt Elek,Elek123,$2y$10$0rb9tBpdf.s/Ck5PqiICguv26nUcfQC7oNt03D0tcDvcjhe.9AjFm,2002-01-02,elek@gmail.com,m,
+Teszt Elek,Elek1234,$2y$10$gAyuWtn4RMCxxCoZ6FFiFuouNuIfkzT6eIUwqJRXCR1UYEnVmiHvy,0000-00-00,elek2@gmail.com,m,

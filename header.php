@@ -18,7 +18,13 @@
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'huawei.php') echo 'class="active"' ?> href="huawei.php">Huawei</a>
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'lenovo.php') echo 'class="active"' ?> href="lenovo.php">Lenovo</a>
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'realme.php') echo 'class="active"' ?> href="realme.php">Realme</a>
-        <a <?php if (basename($_SERVER['PHP_SELF']) == 'registration.php') echo 'class="active"' ?> href="registration.php">Profil</a>
+    
+        <?php if(isset($_SESSION['username'])) { ?>
+        <a href="logout.php">Kijelentkezés</a>
+        <?php } else { ?>
+        <a <?php if (basename($_SERVER['PHP_SELF']) == 'registration.php') echo 'class="active"' ?> href="registration.php">Regisztráció</a>
+        <a <?php if (basename($_SERVER['PHP_SELF']) == 'login.php') echo 'class="active"' ?> href="login.php">Bejelentkezés</a>
+        <?php } ?>
     </header>
 </body>
 </html>

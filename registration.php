@@ -21,7 +21,7 @@
 
                 <fieldset style="border-radius: 10px;">
                     <legend>Van már fiókod?</legend>
-                    <input type="button" name="submit-btn" value="Bejelentkezés" />
+                    <a href="login.php"><input type="button" name="submit-btn" value="Bejelentkezés" /></a>
                 </fieldset>
 
                 <fieldset style="border-radius: 10px; margin: 18px 0">

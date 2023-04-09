@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="hu">
 
+<?php
+session_start();
+if(isset($_SESSION['username'])) {
+    echo 'Welcome, ' . $_SESSION['username'] . '!';
+}
+?>
+
 <head>
     <title>Okostelefonok</title>
     <meta charset="UTF-8" />

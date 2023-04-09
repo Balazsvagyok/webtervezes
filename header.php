@@ -20,6 +20,7 @@
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'realme.php') echo 'class="active"' ?> href="realme.php">Realme</a>
     
         <?php if(isset($_SESSION['username'])) { ?>
+        <a <?php if (basename($_SERVER['PHP_SELF']) == 'modify.php') echo 'class="active"' ?> href="modify.php">Adatok módosítása</a>
         <a href="logout.php">Kijelentkezés</a>
         <?php } else { ?>
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'registration.php') echo 'class="active"' ?> href="registration.php">Regisztráció</a>

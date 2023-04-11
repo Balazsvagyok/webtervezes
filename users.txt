@@ -1,3 +1,1 @@
-Nem Alma,Alma1,$2y$10$zM.pH8gnn6NVmjbXT8VYtOKivKlRGyV3y5emFtezvPTcssAg0jQha,0000-00-00,alma@alma.com,f
-Teszt Elek,Elek1234,$2y$10$7SdpJgB1wqzBCM9duxFggusM9MLQTAhsqH4GxtA/SR32c4IytGVBa,0000-00-00,elek2@gmail.com,m
 Banán,Banán1,$2y$10$DGERgxNx5eww50oFPj2SjeUC82GOd.PF3HF9qpwS1iwwjMROZsbfO,0000-00-00,banan@banan,f,

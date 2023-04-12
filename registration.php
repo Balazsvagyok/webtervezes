@@ -10,7 +10,7 @@
 </head>
 
 <body style="overflow: hidden;">
-    
+
     <?php include_once "header.php"; ?>
 
     <div class="phone-border">
@@ -27,14 +27,14 @@
                 <fieldset style="border-radius: 10px; margin: 18px 0">
                     <legend>Regisztrációs adatok</legend>
                     <label>TELJES NÉV <br /> <input type="text" name="full-name" /></label> <br />
-                    <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="username" required /></label> <br />
-                    <label>JELSZÓ <br /> <input type="password" name="passwd" required /></label> <br />
+                    <label>FELHASZNÁLÓNÉV (min. 5 karakter) <br /> <input type="text" name="username" required /></label> <br />
+                    <label>JELSZÓ (min. 5 karakter) <br /> <input type="password" name="passwd" required /></label> <br />
                     <label>JELSZÓ ISMÉT <br /> <input type="password" name="passwd-check" required /></label> <br />
                     <label>SZÜLETÉSI DÁTUM <br /> <input type="date" name="date-of-birth" min="1920-01-01" /></label> <br />
                     <label>E-MAIL <br /> <input type="email" name="email" required /></label> <br />
                 </fieldset> <br /> Nem: <br />
                 <label for="op2">Nő</label>
-                <input type="radio" id="op2" name="sex" value="f" checked/>
+                <input type="radio" id="op2" name="sex" value="f" checked />
                 <label for="op1">Férfi</label>
                 <input type="radio" id="op1" name="sex" value="m" /> <br /> Kedvelt márka: <br />
                 <label for="brand-1">Samsung</label>

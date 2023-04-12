@@ -1,1 +1,3 @@
 Banán,Banán1,$2y$10$DGERgxNx5eww50oFPj2SjeUC82GOd.PF3HF9qpwS1iwwjMROZsbfO,0000-00-00,banan@banan,f,
+Alma Alma,Alma1,$2y$10$oUf.4oNQn/e/KTSplQo/.e8uuflH1XNY8aZsec5C9p.ZmI6AFMVie,2000-11-11,alma@alma.com,f,sdfgsdfdsfsdfsdfsdfsdfsdf
+Teszt Elek,Elek123,$2y$10$ZsS379GjzFj5kQD5bzVgGuDHeJUOYEWJNTUIMzDDnRDVKNVjKOCC.,2000-11-11,teszt@elek.com,m,,samsung-apple-xiaomi-

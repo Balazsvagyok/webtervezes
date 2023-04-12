@@ -3,9 +3,12 @@
 
 <?php
 session_start();
-if (isset($_SESSION['username'])) {
+if (!isset($_SESSION['username'])) {
+    header('Location:index.php');
+} else {
     echo 'Bejelentkezve: ' . $_SESSION['username'];
 }
+
 ?>
 
 <head>
@@ -46,7 +49,7 @@ if (isset($_SESSION['username'])) {
                     // Display item details
                     echo '<div>';
                     echo '<p>' . $item['product_id'] . '</p>';
-                    echo '<p>Quantity: ' . $item['quantity'] . '</p>';
+                    echo '<p>Mennyiség: ' . $item['quantity'] . '</p>';
                     echo '</div>';
                     echo '<br>';
                 }

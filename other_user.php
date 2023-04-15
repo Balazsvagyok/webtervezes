@@ -65,6 +65,10 @@ if (isset($_SESSION['username'])) {
                     }
                     ?>
                 </div>
+                </br>
+                <form action="message.php" method="POST" enctype="multipart/form-data">
+                    <input type="submit" name="message-btn" value="Üzenet" />
+                </form>
             </div>
         </div>
 

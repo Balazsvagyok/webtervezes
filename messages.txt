@@ -1,0 +1,5 @@
+asdasd,Hello,Alma1
+asdasd,Banán,Banán1
+asdasd,Hello,Banán1
+asdasd,Hello Banán! Mi a helyzet?,Banán1
+asdasd,Hello,Banán1

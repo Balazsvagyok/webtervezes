@@ -1,5 +1,7 @@
-asdasd,Hello,Alma1
-asdasd,Banán,Banán1
-asdasd,Hello,Banán1
-asdasd,Hello Banán! Mi a helyzet?,Banán1
-asdasd,Hello,Banán1
+üzenetek,üzenetek,üzenetek
+hahaha,asdasd,ssss
+hahaha,asdasd,Hello asd!
+asdasd,hahaha,xd
+hahaha,asdasd,Semmi különös.
+asdasd,hahaha,Mi a helyzet?
+hahaha,hahaha,szia en

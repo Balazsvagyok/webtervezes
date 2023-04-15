@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: hidden">
+<body>
 
     <?php include_once "header.php"; ?>
 
@@ -35,6 +35,9 @@ if (isset($_SESSION['username'])) {
                           </br>
                           <input type="submit" name="send_btn" value="Küldés">
                         </form>
+                </fieldset>
+                <p style="font-weight: bold">Üzenetek:</p>
+                <iframe src="messages.php" width="400" height="900">
             </div>
         </div>
 

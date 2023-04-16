@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-    echo 'Bejelentkezve: ' . $_SESSION['username'];
-}
-?>
 
 <head>
     <title>Okostelefonok</title>
@@ -16,9 +10,15 @@ if (isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: hidden">
+<body>
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo 'Bejelentkezve: ' . $_SESSION['username'];
+    }
+    ?>
 
-    <?php include_once "header.php"; ?>
+    <?php include_once "components/header.php"; ?>
 
     <main>
         <div class="phone-border">
@@ -35,6 +35,7 @@ if (isset($_SESSION['username'])) {
                         <label>ÚJ JELSZÓ MÉGEGYSZER <br /> <input type="password" name="new_passwd_check" required /></label> <br />
 
                         <input style="margin: 10px 0;" type="submit" name="modify-btn" value="Módosítás" />
+                    </fieldset>
 
                 </form>
 
@@ -48,7 +49,7 @@ if (isset($_SESSION['username'])) {
         </div>
     </main>
 
-    <?php include_once "footer.php"; ?>
+    <?php include_once "components/footer.php"; ?>
 
 </body>
 

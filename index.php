@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php
-session_start();
-if(isset($_SESSION['username'])) {
-    echo 'Bejelentkezve: ' . $_SESSION['username'];
-}
-?>
 
 <head>
     <title>Okostelefonok</title>
@@ -16,9 +10,16 @@ if(isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: hidden">
+<body style="overflow-x: hidden">
 
-    <?php include_once "header.php"; ?>
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo 'Bejelentkezve: ' . $_SESSION['username'];
+    }
+    ?>
+
+    <?php include_once "components/header.php"; ?>
 
     <main>
         <div class="container">
@@ -61,7 +62,7 @@ if(isset($_SESSION['username'])) {
         </div>
     </main>
 
-    <?php include_once "footer.php"; ?>
+    <?php include_once "components/footer.php"; ?>
 
 </body>
 

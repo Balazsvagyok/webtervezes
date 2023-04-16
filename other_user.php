@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-    echo 'Bejelentkezve: ' . $_SESSION['username'];
-}
-?>
 
 <head>
     <title>Okostelefonok</title>
@@ -16,9 +10,15 @@ if (isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: hidden">
+<body>
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo 'Bejelentkezve: ' . $_SESSION['username'];
+    }
+    ?>
 
-    <?php include_once "header.php"; ?>
+    <?php include_once "components/header.php"; ?>
 
     <main>
         <div class="phone-border">
@@ -30,16 +30,17 @@ if (isset($_SESSION['username'])) {
                     <fieldset style="border-radius: 10px; margin: 18px 0">
                         <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="uname" required /></label> <br />
                         <input type="submit" name="search-btn" value="Keresés" />
+                    </fieldset>
                 </form>
 
                 <div>
                     <?php
                     if (isset($_POST['search-btn'])) {
-                        $file = fopen('users.txt', 'r');
+                        $file = fopen('datas/users.txt', 'r');
 
                         $uname = $_POST['uname'];
 
-                        $contents = fread($file, filesize('users.txt'));
+                        $contents = fread($file, filesize('datas/users.txt'));
                         fclose($file);
 
                         $userData = explode("\n", $contents);
@@ -65,7 +66,7 @@ if (isset($_SESSION['username'])) {
                     }
                     ?>
                 </div>
-                </br>
+
                 <form action="message_send.php" method="POST" enctype="multipart/form-data">
                     <input type="submit" name="message-btn" value="Üzenetek" />
                 </form>
@@ -74,7 +75,7 @@ if (isset($_SESSION['username'])) {
 
     </main>
 
-    <?php include_once "footer.php"; ?>
+    <?php include_once "components/footer.php"; ?>
 
 </body>
 

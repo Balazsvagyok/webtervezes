@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+
+<head>
+    <title>Okostelefonok</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
+    <link rel="icon" href="images/smartphone.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
 <?php
 session_start();
 if (isset($_SESSION['username'])) {
@@ -5,9 +17,9 @@ if (isset($_SESSION['username'])) {
 }
 
 if (isset($_POST['delete-btn'])) {
-    $file = fopen('users.txt', 'r');
+    $file = fopen('datas/users.txt', 'r');
 
-    $contents = fread($file, filesize('users.txt'));
+    $contents = fread($file, filesize('datas/users.txt'));
     fclose($file);
 
     $userData = explode("\n", $contents);
@@ -21,7 +33,7 @@ if (isset($_POST['delete-btn'])) {
     $updatedContents = implode("\n", array_map(function ($user) {
         return implode(",", $user);
     }, $userData));
-    $file = fopen('users.txt', 'w');
+    $file = fopen('datas/users.txt', 'w');
     fwrite($file, $updatedContents);
     fclose($file);
 
@@ -29,3 +41,6 @@ if (isset($_POST['delete-btn'])) {
     header('Location: index.php');
     exit();
 }
+?>
+
+</html>

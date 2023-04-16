@@ -1,11 +1,22 @@
-﻿<?php
+﻿<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Realme telefonok</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
+    <link rel="icon" href="images/smartphone.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<?php
 session_start();
 
 if (isset($_POST['send_btn'])) {
 
-    $file = fopen('users.txt', 'r');
+    $file = fopen('datas/users.txt', 'r');
 
-    $contents = fread($file, filesize('users.txt'));
+    $contents = fread($file, filesize('datas/users.txt'));
     fclose($file);
 
     $userData = explode("\n", $contents);
@@ -20,7 +31,7 @@ if (isset($_POST['send_btn'])) {
         if ($userData[$key][1] == $cimzett) {
             $found = true;
 
-            $messages = file('messages.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            $messages = file('datas/messages.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
             if (empty($messages)) {
                 $messages[] = $message;
@@ -29,22 +40,24 @@ if (isset($_POST['send_btn'])) {
                 $messages[$key_user] .= PHP_EOL . $message;
             }
 
-            file_put_contents('messages.txt', implode(PHP_EOL, $messages));
+            file_put_contents('datas/messages.txt', implode(PHP_EOL, $messages));
 
             /*echo "Az üzenet sikeresen elküldve a következő címzetthez: " . $cimzett;
             echo '<a href="message_send.php">
                 <input type="submit" value="OK"/>
                 </a>';*/
-                header("Location: message_send.php");
+            header("Location: message_send.php");
             break;
         }
     }
 
     if (!$found) {
         echo "A megadott címzett nem regisztrált felhasználó!";
-        echo '<a href="message_send.php">
-            <input type="submit" value="OK"/>
-            </a>';
+        echo '<form action="message_send.php" method="POST" enctype="multipart/form-data">
+                <button type="submit" name="ok">OK</button>
+                </form>';
     }
 }
 ?>
+
+</html>

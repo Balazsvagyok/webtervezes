@@ -1,9 +1,21 @@
-<?php 
+<!DOCTYPE html>
+<html lang="hu">
+
+
+<head>
+	<title>Okostelefonok</title>
+	<meta charset="UTF-8" />
+	<meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
+	<link rel="icon" href="images/smartphone.png" />
+	<link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<?php
 session_start();
 
-$file = fopen('messages.txt', 'r');
-if (filesize('messages.txt') != 0) {
-	$contents = fread($file, filesize('messages.txt'));
+$file = fopen('datas/messages.txt', 'r');
+if (filesize('datas/messages.txt') != 0) {
+	$contents = fread($file, filesize('datas/messages.txt'));
 	fclose($file);
 
 	$userData = explode("\n", $contents);
@@ -25,3 +37,5 @@ if (filesize('messages.txt') != 0) {
 	}
 }
 ?>
+
+</html>

@@ -23,6 +23,7 @@
                     <fieldset style="border-radius: 10px; margin: 18px 0">
                         <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="username" required /></label> <br />
                         <label>JELSZÓ <br /> <input type="password" name="passwd" required /></label> <br />
+                    </fieldset>
 
                     <input type="submit" name="login-btn" value="Bejelentkezés" />
                 </form>

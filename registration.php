@@ -19,10 +19,7 @@
         <div class="registration">
             <form action="register_check.php" method="POST" enctype="multipart/form-data">
 
-                <fieldset style="border-radius: 10px;">
-                    <legend>Van már fiókod?</legend>
-                    <a href="login.php"><input type="button" name="submit-btn" value="Bejelentkezés" /></a>
-                </fieldset>
+
 
                 <fieldset style="border-radius: 10px; margin: 18px 0">
                     <legend>Regisztrációs adatok</legend>

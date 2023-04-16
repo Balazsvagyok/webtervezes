@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php
-session_start();
-if(isset($_SESSION['username'])) {
-    echo 'Bejelentkezve: ' . $_SESSION['username'];
-}
-?>
 
 <head>
     <title>Okostelefonok</title>
@@ -16,7 +10,14 @@ if(isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
+
 <body style="overflow: hidden">
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo 'Bejelentkezve: ' . $_SESSION['username'];
+    }
+    ?>
 
     <?php include_once "header.php"; ?>
 

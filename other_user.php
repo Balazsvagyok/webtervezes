@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-    echo 'Bejelentkezve: ' . $_SESSION['username'];
-}
-?>
 
 <head>
     <title>Okostelefonok</title>
@@ -17,6 +11,12 @@ if (isset($_SESSION['username'])) {
 </head>
 
 <body style="overflow: hidden">
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        echo 'Bejelentkezve: ' . $_SESSION['username'];
+    }
+    ?>
 
     <?php include_once "header.php"; ?>
 
@@ -30,6 +30,7 @@ if (isset($_SESSION['username'])) {
                     <fieldset style="border-radius: 10px; margin: 18px 0">
                         <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="uname" required /></label> <br />
                         <input type="submit" name="search-btn" value="Keresés" />
+                    </fieldset>
                 </form>
 
                 <div>

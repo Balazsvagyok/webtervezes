@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: show;">
+<body>
 
-    <?php include_once "header.php"; ?>
+    <?php include_once "components/header.php"; ?>
 
     <div class="phone-border">
         <img src="images/phone-border.png" alt="phone-border" width="700" />
@@ -19,10 +19,6 @@
         <div class="registration">
             <form action="register_check.php" method="POST" enctype="multipart/form-data">
 
-                <fieldset style="border-radius: 10px;">
-                    <legend>Van már fiókod?</legend>
-                    <a href="login.php"><input type="button" name="submit-btn" value="Bejelentkezés" /></a>
-                </fieldset>
 
                 <fieldset style="border-radius: 10px; margin: 18px 0">
                     <legend>Regisztrációs adatok</legend>
@@ -50,7 +46,6 @@
                 <label for="brand-6">Realme</label>
                 <input type="checkbox" id="brand-6" name="brands[]" value="realme" /> <br /> <br />
 
-                <label>Profilkép: <input type="file" name="profile-pic" /></label> <br />
                 <label for="introduction">Bemutatkozás (max. 200 karakter):</label> <br />
                 <textarea id="introduction" name="intro" maxlength="200" rows="3" cols="50"></textarea> <br />
 
@@ -60,7 +55,7 @@
         </div>
     </div>
 
-    <?php include_once "footer.php"; ?>
+    <?php include_once "components/footer.php"; ?>
 
 </body>
 

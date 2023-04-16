@@ -3,3 +3,4 @@ Alma Alma,Alma1,$2y$10$oUf.4oNQn/e/KTSplQo/.e8uuflH1XNY8aZsec5C9p.ZmI6AFMVie,200
 Teszt Elek,Elek123,$2y$10$ZsS379GjzFj5kQD5bzVgGuDHeJUOYEWJNTUIMzDDnRDVKNVjKOCC.,2000-11-11,teszt@elek.com,m,,samsung-apple-xiaomi-
 asdasd,asdasd,$2y$10$5eD4cuEkNBLIr7mzvz.q9O7QInWxxxUjL2dN.6EJdpaAyrM78EPs6,0000-00-00,asd@asd.com,m,,xiaomi-
 hahaha,hahaha,$2y$10$HeeCdEmYywMqqVP5G8sMKuhwFuCQZeBvLX.kO.nBKbBQVgvc9yOh2,0000-00-00,hahaha@hahaha.com,m,hahahaaaa,
+Nem Teszt Bálint,Balint1,$2y$10$ugWVTVF48LBrEXMI7ykkq.5uXt6TCv1Wj/JoJ.vx1y6Y7FPTSbHo.,2004-06-14,balint@balint.com,m,balint vagyok,xiaomi-huawei-

@@ -11,7 +11,7 @@
 
 <body>
 
-    <?php include_once "header.php"; ?>
+    <?php include_once "components/header.php"; ?>
 
     <main>
         <div class="phone-border">
@@ -24,13 +24,14 @@
                         <label>FELHASZNÁLÓNÉV <br /> <input type="text" name="username" required /></label> <br />
                         <label>JELSZÓ <br /> <input type="password" name="passwd" required /></label> <br />
 
-                    <input type="submit" name="login-btn" value="Bejelentkezés" />
+                        <input type="submit" name="login-btn" value="Bejelentkezés" />
+                    </fieldset>
                 </form>
             </div>
         </div>
     </main>
 
-    <?php include_once "footer.php"; ?>
+    <?php include_once "components/footer.php"; ?>
 
 </body>
 

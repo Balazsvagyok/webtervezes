@@ -1,6 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Okostelefonok</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kollár Edvárd, Szelekovszky Balázs" />
+    <link rel="icon" href="images/smartphone.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
 <?php
 if (isset($_POST['submit-btn'])) {
-    $file = fopen('users.txt', 'a');
+    $file = fopen('datas/users.txt', 'a');
 
     $user_data = array();
 
@@ -46,7 +57,7 @@ if (isset($_POST['submit-btn'])) {
     if (strlen($email) < 1) {
         $errors[] = 'Kötelező emailt megadni.';
     }
-    $lines = file('users.txt');
+    $lines = file('datas/users.txt');
     foreach ($lines as $line) {
         $user = explode(',', $line);
         if ($user[1] == $username) {
@@ -67,9 +78,9 @@ if (isset($_POST['submit-btn'])) {
             echo '<li>' . $error . '</li>';
         }
         echo '</ul>';
-        echo '<a href="registration.php">
-        <input type="submit" value="OK"/>
-        </a>';
+        echo '<form action="registration.php" method="POST" enctype="multipart/form-data">
+                <button type="submit" name="ok">OK</button>
+                </form>';
     } else {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         fwrite($file, "\n$full_name,$username,$hashed_password,$date_of_birth,$email,$sex,$introduction,");
@@ -85,3 +96,6 @@ if (isset($_POST['submit-btn'])) {
         exit();
     }
 }
+?>
+
+</html>

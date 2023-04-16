@@ -1,7 +1,8 @@
-üzenetek,üzenetek,üzenetek
-hahaha,asdasd,ssss
-hahaha,asdasd,Hello asd!
-asdasd,hahaha,xd
-hahaha,asdasd,Semmi különös.
-asdasd,hahaha,Mi a helyzet?
-hahaha,hahaha,szia en
+a,a,a,a
+hahaha,asdasd,@asdasd mivante,2023-04-16 12:12:44
+hahaha,asdasd,asd,2023-04-16 12:12:01
+hahaha,asdasd,helo semmi,2023-04-16 12:10:53
+asdasd,hahaha,mizu,2023-04-16 12:08:33
+asdasd,asdasd,aaaa,2023-04-16 12:06:00
+asdasd,hahaha,helobelo,2023-04-16 12:08:11
+asdasd,asdasd,helo,2023-04-16 12:06:46

@@ -11,7 +11,7 @@ if (isset($_POST['send_btn'])) {
     $userData = explode("\n", $contents);
 
     $cimzett = $_POST['cimzett'];
-    $message = $_SESSION['username'] . ','  . $cimzett . ',' . $_POST['message'];
+    $message = $_SESSION['username'] . ','  . $cimzett . ',' . $_POST['message'] . ',' . date('Y-m-d H:i:s');
 
     $found = false;
     foreach ($userData as $key => $user) {
@@ -31,10 +31,11 @@ if (isset($_POST['send_btn'])) {
 
             file_put_contents('messages.txt', implode(PHP_EOL, $messages));
 
-            echo "Az üzenet sikeresen elküldve a következő címzetthez: " . $cimzett;
+            /*echo "Az üzenet sikeresen elküldve a következő címzetthez: " . $cimzett;
             echo '<a href="message_send.php">
                 <input type="submit" value="OK"/>
-                </a>';
+                </a>';*/
+                header("Location: message_send.php");
             break;
         }
     }

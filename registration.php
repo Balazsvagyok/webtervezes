@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body style="overflow: hidden;">
+<body style="overflow: show;">
 
     <?php include_once "header.php"; ?>
 
